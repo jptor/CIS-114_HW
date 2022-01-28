@@ -2,6 +2,10 @@ body {
  background-color: #073642;   
 }
 
+body:hover {
+    cursor: default;
+}
+
 h1 {
     font-family: sans-serif;
     margin-left: 0.5em;
@@ -24,6 +28,10 @@ a {
     color: #839496;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 button {
     background-color: #586e75;
     margin: 10px;
@@ -35,7 +43,7 @@ button {
 
 button:hover{
     border: none;
-    cursor: crosshair;
+    cursor: pointer;
 }
 
 #buttons {
