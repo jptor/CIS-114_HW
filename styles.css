@@ -1,5 +1,5 @@
 body {
- background-color: #073642;   
+ background-color: #111;   
 }
 
 body:hover {
@@ -9,41 +9,48 @@ body:hover {
 h1 {
     font-family: sans-serif;
     margin-left: 0.5em;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
-    color: #93a1a1;
+    color: #e86afc;
+    text-shadow: 0px 0px 10px #f000ff;
 }
 
 h2 {
     font-family: sans-serif;
     font-size: 50;
     color: #93a1a1;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
 }
 
 a {
     font-family: sans-serif;
     text-align: center;
-    color: #839496;
+    color: #e86afc;
+    text-shadow: 0px 0px 5px #f000ff;
 }
 
 a:hover {
     cursor: pointer;
+    color: #4deeea;
+    text-shadow: 0px 0px 5px #4deeea;
 }
 
 button {
-    background-color: #586e75;
-    margin: 10px;
-    padding: 15px;
-    color: #93a1a1;
-    border: 3px solid #93a1a1;
-    border-radius: 5px;
+    background-color: #111;
+    margin: 1em;
+    padding: 1.25em;
+    color: #e86afc;
+    border: 0.15em solid #93a1a1;
+    border-radius: 0.5em;
+    text-shadow: 0px 0px 5px #f000ff;
 }
 
 button:hover{
-    border: none;
+    border: 0.15em solid #4deeea;
+    box-shadow: 0px 0px 5px #4deeea;
     cursor: pointer;
+    text-shadow: 0px 0px 15px #f000ff;
 }
 
 #buttons {
@@ -52,4 +59,5 @@ button:hover{
 
 #comingSoon{
     text-align: center;
+    margin-top: 5em;
 }
