@@ -18,7 +18,7 @@ h1 {
 
 h2 {
     font-family: sans-serif;
-    font-size: 50;
+    font-size: 50px;
     color: #93a1a1;
     margin-bottom: 3em;
 }
@@ -46,7 +46,7 @@ button {
     text-shadow: 0px 0px 5px #f000ff;
 }
 
-button:hover{
+button:hover {
     border: 0.15em solid #4deeea;
     box-shadow: 0px 0px 5px #4deeea;
     cursor: pointer;
@@ -55,9 +55,127 @@ button:hover{
 
 div {
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
-#comingSoon{
+table {
+    font-family: sans-serif;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+td, th {
+    width: 6em;
+    height: 4em;
+    border: solid;
+    border-width: 1px;
+    box-shadow: 0px 0px 10px;
+}
+
+th {
+    color: coral;
+}
+
+td {
+    color: #4deeea;
+}
+
+#comingSoon {
     text-align: center;
     margin-top: 5em;
+}
+
+#xy {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    color: red;
+    float: left;
+    margin: 0.2em;
+    margin-left: 0.75em;
+    margin-top: 0.3em;
+}
+
+#twelve {
+    font-family: 'Arial';
+    font-size: 20px;
+    color: blue;
+    float: left;
+    margin: 0.2em;
+    margin-top: 0.4em;
+}
+
+#eightyNine {
+    font-family: 'Impact';
+    font-size: 20px;
+    color: green;
+    float: left;
+    margin: 0.2em;
+    margin-top: 0.35em;
+}
+
+#scriptResults {
+    background-color: antiquewhite;
+    border-radius: 0.5em;
+    width: 7em;
+    height: 2.5em;
+    margin: 0 auto;
+    margin-top: 10em;
+    margin-bottom: 3em;
+    text-align: center;
+    box-shadow: 0em 0em 1em #faebd7;
+}
+
+#info {
+    font-family: sans-serif;
+    margin-left: 0.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    color: ghostwhite;
+    text-shadow: 0px 0px 5px #f000ff;
+}
+
+#error {
+    font-family: sans-serif;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: orangered;
+    text-shadow: 0px 0px 10px red;
+}
+
+#textBox {
+    text-align: center;
+    border-radius: 0.5em;
+    height: 2em;
+    width: 5em;
+    border: none;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px antiquewhite;
+    margin-bottom: 3em;
+    color: black;
+    text-shadow: 0px 0px 1px gray;
+}
+
+#submit {
+    height: 3em;
+    width: 6em;
+    background-color: #111;
+    color: #e86afc;
+    border: 0.15em solid #93a1a1;
+    border-radius: 0.5em;
+    text-shadow: 0px 0px 5px #f000ff;
+    margin-bottom: 3em;
+}
+
+#submit:hover {
+    border: 0.15em solid #4deeea;
+    box-shadow: 0px 0px 5px #4deeea;
+    cursor: pointer;
+    text-shadow: 0px 0px 15px #f000ff;
 }
