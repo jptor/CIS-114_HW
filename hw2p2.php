@@ -10,12 +10,12 @@
     <div style="margin-top: 8em;">
         <form action="hw2p2.php" method="post">
             <div>
-                <input type="text" name="numOne" id="textBox">
-                <input type="text" name="numTwo" id="textBox">
-                <input type="text" name="numThree" id="textBox">
+                <input type="text" name="numOne" id="textBox" value="<?php echo $_POST['numOne']?>">
+                <input type="text" name="numTwo" id="textBox" value="<?php echo $_POST['numTwo']?>">
+                <input type="text" name="numThree" id="textBox" value="<?php echo $_POST['numThree']?>">
             </div>
             <div>
-                <input type="submit" id="submit">
+                <input type="submit" id="submit" value="Submit">
             </div>
         </form>
     <script>

@@ -10,10 +10,10 @@
     <div style="margin-top: 8em;">
         <form action="hw2p3.php" method="post">
             <div>
-                <input type="text" name="usDollar" id="textBox">
+                <input type="text" name="usDollar" id="textBox" value="<?php echo $_POST['usDollar']?>">
             </div>
             <div>
-                <input type="submit" id="submit">
+                <input type="submit" id="submit" value="Submit">
             </div>
         </form>
     </div>
@@ -25,8 +25,6 @@
             var cnDollar = " "; 
             var yen = " ";
             var peso = " ";
-            
-            console.log(euro);
         
             if(!isNaN(usDollar) && usDollar){
                 hkDollar = Math.round(usDollar * 7.8 * 100) / 100;
@@ -43,7 +41,6 @@
             else{
                 document.write('<p id="error">ERROR: Please enter a number</p>');
             }
-            console.log(euro);
         </script>
     </div>
     <div>

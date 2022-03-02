@@ -84,6 +84,18 @@ td {
     color: #4deeea;
 }
 
+.divColumn {
+    text-align: left; 
+    width: 25em; 
+    height: 4em; 
+    margin: 0 auto;
+}
+
+.subDiv {
+    float: left; 
+    width: 50%;
+}
+
 #comingSoon {
     text-align: center;
     margin-top: 5em;
@@ -178,4 +190,48 @@ td {
     box-shadow: 0px 0px 5px #4deeea;
     cursor: pointer;
     text-shadow: 0px 0px 15px #f000ff;
+}
+
+#inputLabel {
+    text-align: right; 
+    padding-right: 0.5em;
+    font-family: sans-serif;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    color: #ED42FF;
+    text-shadow: 0px 0px 5px #f000ff;
+}
+
+.finalAv {
+    font-family: sans-serif;
+    font-size: 3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.finalAv.a {
+    color: green;
+    text-shadow: 0px 0px 10px green;
+}
+
+.finalAv.b {
+    color: aquamarine;
+    text-shadow: 0px 0px 5px aquamarine;
+}
+
+.finalAv.c {
+    color: yellow;
+    text-shadow: 0px 0px 5px yellow;
+}
+
+.finalAv.d {
+    color: orange;
+    text-shadow: 0px 0px 5px yellow
+}
+
+.finalAv.f {
+    color: red;
+    text-shadow: 0px 0px 5px red;
 }
