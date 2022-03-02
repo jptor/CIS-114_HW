@@ -9,6 +9,9 @@
 <body>
     <div style="margin-top: 4em;">
         <form action="hw3p2.php" method="post" id="comissionForm">
+            <div>
+                <p id="info">Enter your name</p>
+            </div>
             <div style="text-align: left; width: 12em; height: 4em; margin: 0 auto;">
                 <div style="float: left; width: 50%;">
                     <p id="inputLabel">Salesperson:</p>
@@ -54,7 +57,7 @@
                 }
                 
                 if (!itemOne && !itemTwo && !itemThree && !itemFour){
-                    document.write('<p id="info">Enter the number of items sold for each item number below</p>');
+                    document.write('<p id="info">Enter the number of items sold for each item number below</p><p id="info"><b>Your commission is 9% of each sale plus $250</b></p>');
                     itemOne = 0;
                     itemTwo = 0;
                     itemThree = 0;
@@ -133,7 +136,7 @@
             </div>
             <div style="float:left; width: 20%;">                
                  <p id="info" style="margin-bottom: 1em;"><b>Total Amount Sold: </b><br><script>document.write('$' + salesTotal);</script></p>                
-                 <p id="info" style="margin-top: 1em;"><b>Total Comission: </b><br><span id="info" style="margin-left: 0em; color: #00ff00; text-shadow: 0px 0px 5px #00cc00;"><script>document.write('$' + comissionTotal);</script></span></p>
+                 <p id="info" style="margin-top: 1em;"><b>Total Commission: </b><br><span id="info" style="margin-left: 0em; color: #00ff00; text-shadow: 0px 0px 5px #00cc00;"><script>document.write('$' + comissionTotal);</script></span></p>
             </div>
         </div>
         <div id='comingSoon'>

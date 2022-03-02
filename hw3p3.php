@@ -55,8 +55,8 @@
                 <input type="text" name="temp" value="<?php echo $_POST['temp']?>" style="margin-top: 1.5em;" id="textBox">
             </div>
             <div>
-                <input type="submit" value="Celcius -> Farenheit" style="width: 12em;" name="cButton" id="submit">
-                <input type="submit" value="Farenheit -> Celcius" style="width: 12em;" name="fButton" id="submit">
+                <input type="submit" value="Celcius → Farenheit" style="width: 12em;" name="cButton" id="submit">
+                <input type="submit" value="Farenheit → Celcius" style="width: 12em;" name="fButton" id="submit">
             </div>
         </form>
         <div id="finalTempDiv">
